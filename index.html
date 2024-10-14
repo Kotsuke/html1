@@ -4,37 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>Kuruma</title>
-  </head>
-
-  <body>
-    <h1>IlusShop</h1>
-    <a href="https://id.wikipedia.org/wiki/Ikan" target="_blank">Home</a>
-    <br />
-    <a href="https://id.wikipedia.org/wiki/Ikan" target="_blank">Library</a>
-    <br />
-    <a href="https://id.wikipedia.org/wiki/Ikan" target="_blank">background</a>
-    <br />
-    <br />
-    <img src="Image/download.jpg" alt="contoh" weidth="200px" height="200px" />
-    <br />
-    <p>
-      Selamat datang di IlusShop platform kreatif yang menghadirkan dunia visual
-      menjadi nyata. Kami menawarkan layanan ilustrasi berkualitas tinggi yang
-      dirancang khusus untuk kebutuhan Anda, dari karya seni digital hingga
-      visual branding yang memukau. Jelajahi portofolio kami dan wujudkan ide
-      kreatif Anda bersama tim ilustrator profesional kami.
-    </p>
-    <br />
-    <h2>Our Garantine</h2>
-    <p>
-      Percayakan kebutuhan ilustrasi Anda kepada kami! Dengan kreativitas tanpa
-      batas dan dedikasi untuk detail, kami siap membantu Anda menghadirkan
-      visual yang unik dan berkesan. Hubungi kami hari ini dan biarkan ide-ide
-      kreatif Anda bersinar melalui karya kami!
-    </p>
-    <hr />
-    <h4>Follow us :</h4>
-    <i class="fa-brands fa-instagram"></i>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -42,8 +11,104 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <br />
-    <h6>More Information</h6>
-    <h6>Website ini dibuat dan Didesign Oleh Subandrio</h6>
+    <style>
+      /* Menyelaraskan navigasi ke tengah */
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 15px; /* Memberikan jarak antar link */
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body align="center">
+    <!-- Header -->
+    <header>
+      <h1>IlusShop</h1>
+      <nav>
+        <a href="" target="_blank">Home</a>
+        <a href="https://id.wikipedia.org/wiki/Ikan" target="_blank">Library</a>
+        <a href="https://id.wikipedia.org/wiki/Ikan" target="_blank">Background</a>
+      </nav>
+    </header>
+<br>
+    <!-- Content -->
+    <main align="center">
+      <!-- Section Introduction -->
+      <section">
+        <img src="Image/download.jpg" alt="contoh" width="600px" height="300px" />
+        <center>
+          <div style="max-width: 700px;">
+            <p>
+              Selamat datang di IlusShop, platform kreatif yang menghadirkan dunia visual menjadi nyata.
+              Kami menawarkan layanan ilustrasi berkualitas tinggi yang dirancang khusus untuk kebutuhan
+              Anda, dari karya seni digital hingga visual branding yang memukau. Jelajahi portofolio kami
+              dan wujudkan ide kreatif Anda bersama tim ilustrator profesional kami.
+            </p>
+        </div>
+        </center>
+        
+      </section>
+
+      <!-- Section Our Services -->
+      <section>
+        <h2>Our Services</h2>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+          <thead>
+            <tr>
+              <th>Nama Layanan/Menu</th>
+              <th>Deskripsi Layanan/Menu</th>
+              <th>Harga</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ilustrasi Digital</td>
+              <td>Layanan pembuatan ilustrasi digital sesuai kebutuhan Anda.</td>
+              <td>Rp 500.000</td>
+            </tr>
+            <tr>
+              <td>Logo Branding</td>
+              <td>Pembuatan logo profesional untuk usaha atau bisnis Anda.</td>
+              <td>Rp 1.000.000</td>
+            </tr>
+            <tr>
+              <td>Desain Poster</td>
+              <td>Desain poster unik dan menarik untuk berbagai keperluan.</td>
+              <td>Rp 300.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section Contact Us -->
+      <section>
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="POST">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Pesan:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br /><br />
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <hr />
+      <p>Follow us on:</p>
+      <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <p>Website ini dibuat dan Didesain Oleh Subandrio</p>
+    </footer>
   </body>
 </html>
